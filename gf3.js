@@ -927,6 +927,7 @@ var build = 0x231d4c;
             var aQ = kw;
             this[aQ(0x14a)]();
         }, Ad[kw(0x430)][kw(0x7ca)] = function(GC) {
+            console.log('log Ad leaderboard: ', this);
             var aK = kw;
             this[aK(0x46c)][aK(0x4aa)] = 0x0;
             var GQ = GC[aK(0x71b)](GC[aK(0x685)], !0x0);
@@ -944,6 +945,7 @@ var build = 0x231d4c;
             }
             this[aK(0x84a)]();
         }, Ad[kw(0x430)][kw(0x4df)] = function(GC) {
+            console.log('log Ad ping: ', this);
             var aI = kw;
             this[aI(0x46c)][aI(0x4aa)] = 0x0;
             var GQ = GC[aI(0x58f)](GC[aI(0x685)], !0x0),
